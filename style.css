@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    background-image: url(./images/mc\ laren.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .todo-app {
+    background-color: #0000;
+    font-size: 20px;
+    padding: 70px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-inline: auto;
+    max-width: 800px;
+    border-radius: 0 0 solid #000;
+  }
+  
+  .todo-app h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  .todo-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  #newTaskInput {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  #addTaskBtn {
+    background-color: #5567ff;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addTaskBtn:hover {
+    background-color: #334bbd;
+  }
+  
+  #filterTasks {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .task-controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #4a4a4a;
+  }
+  
+  .task-controls button:hover {
+    color: #000;
+  }
+  
